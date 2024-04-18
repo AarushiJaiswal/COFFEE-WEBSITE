@@ -5,7 +5,7 @@ import FooterBg from "../../assets/website/coffee-footer.jpg";
 const FooterLinks = [
   {
     title: "Home",
-    link: "/#",
+    link: "/",
   },
   {
     title: "About",
@@ -37,7 +37,7 @@ const Footer = () => {
           {/* company details */}
           <div className="py-8 px-4">
             <a
-              href="#"
+              href="/"
               className="font-semibold tracking-widest text-2xl sm:text-3xl font-cursive"
             >
               Coffee Cafe
@@ -97,13 +97,13 @@ const Footer = () => {
 
                 {/* social links */}
                 <div className="flex items-center gap-3 mt-6">
-                  <a href="#">
+                  <a href="/">
                     <FaInstagram className="text-3xl hover:text-primary duration-300" />
                   </a>
-                  <a href="#">
+                  <a href="/">
                     <FaFacebook className="text-3xl hover:text-primary duration-200" />
                   </a>
-                  <a href="#">
+                  <a href="/">
                     <FaLinkedin className="text-3xl hover:text-primary duration-200" />
                   </a>
                 </div>
